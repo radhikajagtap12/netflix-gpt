@@ -1,0 +1,1 @@
+export const LOGO = "../../public/netflix.png"
