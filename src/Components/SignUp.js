@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./Header";
-import LoginForm from "./LoginForm";
+import SignUpForm from "./SignUpForm";
 
-const Login = () => {
+const SignUp = () => {
   return (
     <div
       className="h-screen bg-cover bg-center relative w-full"
@@ -12,10 +12,10 @@ const Login = () => {
     >
       <div className="absolute inset-0 bg-black bg-opacity-50">
         <Header />
-        <LoginForm />
+        <SignUpForm />
       </div>
     </div>
   );
 };
 
-export default Login;
+export default SignUp;
